@@ -9,7 +9,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <mem.h>
+#include <memory.h>
 #include "Part2.h"
 #include "student.h"
 
