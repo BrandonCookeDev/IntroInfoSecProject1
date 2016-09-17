@@ -6,10 +6,10 @@
 #define INTROINFOSECP1_STUDENT_H
 
 struct Student {
-    char    name[15];
-    char    class[10];
+    char    name[12];
+    char    class[12];
     char    gpa[4];
-    char    student_id[6];
+    char    student_id[8];
 } typedef Student_t;
 
 void student_to_string(struct Student s);

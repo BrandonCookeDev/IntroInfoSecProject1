@@ -16,7 +16,7 @@
 Student_t s;
 
 struct Student create_student_bo(){
-    char name[15], class[10], gpa[4], student_id[6];
+    char name[12], class[12], gpa[4], student_id[8];
     printf("Please input student name:\n");
     gets(name);
 
