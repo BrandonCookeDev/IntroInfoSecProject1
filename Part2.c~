@@ -19,7 +19,7 @@ struct Student create_student_ho(){
     char * name, * class, * gpa, * student_id;
 
     printf("\nPlease print student's name:\n");
-    name = malloc(sizeof(char *) * 12);
+    name = malloc(sizeof s.name);
     gets(name);
 
     printf("\nPlease print student's class\n");
