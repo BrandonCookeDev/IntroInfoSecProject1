@@ -24,15 +24,15 @@ struct Student create_student_ho(){
 
     printf("\nPlease print student's class\n");
     class = malloc(sizeof(char *) * 12);
-    fgets(class, sizeof class, stdin);
+    fgets(class, strlen(class) , stdin);
 
     printf("\nPlease print the student's gpa:\n");
     gpa = malloc(sizeof(char *) * 4);
-    fgets(class, sizeof gpa, stdin);
+    fgets(class, strlen(gpa), stdin);
 
     printf("\nPlease print the student's id:\n");
     student_id = malloc(sizeof(char *) * 8);
-    fgets(student_id, sizeof student_id, stdin);
+    fgets(student_id, strlen(student_id), stdin);
 
     strcpy(s.name, name);
     strcpy(s.class, class);
